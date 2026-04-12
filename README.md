@@ -18,6 +18,11 @@ Looking at the initial UMAP for the mouse cells (Figure 2), a total of 37 distin
 
 **Figure 2**: UMAP embedding of 156,572 mouse cells across 37 mostly heterogenous clusters.  Cells were included from both normal mice and mice infected with nasal influenza across three different regions of the nasal mucosa, including the respiratory mucosa (RM), olfactory mucosa (OM), and lateral nasal gland (LM).  They were collected across a time span of 2 weeks, collected at five different endpoints (Naive, D02, D05, D08, D14).
 
+### Annotation of Mouse Cell Clusters
+
+<img width="1397" height="782" alt="Mouse_Annotated_UMAP" src="https://github.com/user-attachments/assets/b3b51da6-c72e-4c1a-8063-e6ff22991d69" />
+
+
 ## Discussion
 
 ## References
