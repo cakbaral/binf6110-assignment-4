@@ -20,13 +20,17 @@ Looking at the initial UMAP for the mouse cells (Figure 2), a total of 37 distin
 **Figure 2**: UMAP embedding of 156,572 mouse cells across 37 mostly heterogenous clusters.  Cells were included from both normal mice and mice infected with nasal influenza across three different regions of the nasal mucosa, including the respiratory mucosa (RM), olfactory mucosa (OM), and lateral nasal gland (LM).  They were collected across a time span of 2 weeks, collected at five different endpoints (Naive, D02, D05, D08, D14).
 
 ### Annotation of Mouse Cell Clusters
-To identify cell type/identity for each cluster, all cells were annotated using SingleR (v2.8.0).  Looking at the annotated UMAP embedding in Figure 3, a total of 18 different cell types were identified from the entire cell community of 156,572 cells.  However, when , .  These 9 dominant cell types included: B cells, endothelial cells, epithelial cells, fibroblasts, granulocytes, macrophages, monocytes, neurons, and T cells.
+To identify cell type/identity for each cluster, all cells and clusters were annotated using SingleR (v2.8.0).  Looking at the annotated UMAP embedding at the cell level (Figure 3), a total of 18 different cell types were identified from the entire cell community of 156,572 cells.  Then, looking at the annotated UMAP embedding at the cluster level (Figure 4), which looked more at the more dominant cell types across clusters, this list was consequently reduced to 9 different cell types overall.
 
+<img width="822" height="491" alt="Mouse_Annotated_UMAP_Cell" src="https://github.com/user-attachments/assets/1ec84166-c8e5-4b87-a59e-87383c30f511" />
 
+**Figure 3**: Annotated UMAP embedding of all 156,572 mouse cells using the SingleR (v2.8.0) program at the cell level.  A total of 18 different cell types were identified from the entire cell community.
 
-**Figure 3**: Annotated UMAP embedding of all 156,572 mouse cells across 37 clusters using the SingleR (v2.8.0) program.  A total of 18 different cell types were identified from the entire cell community.
+<img width="822" height="491" alt="Mouse_Annotated_UMAP_Cluster" src="https://github.com/user-attachments/assets/44e879d5-16d6-49a9-a4eb-c699ebe6eb28" />
 
-To check the accuracy of these automatic annotations, cluster 4, which identified its dominant cell type as B cells, was selected for verification using manual annotation with the scientific literature.  The top three significant gene markers identified for this cluster were 
+**Figure 4**: Annotated UMAP embedding of all 37 mouse cell clusters using the SingleR (v2.8.0) program at the cluster level.  There were a total of 9 dominant cell types identified from the clusters.
+
+To check the accuracy of the automatic annotations by cluster, cluster 4, which identified its dominant cell type as B cells, was selected for verification using manual annotation with the scientific literature.  The top three significant gene markers identified for this cluster were 
 
 ### Genes of Interest
 
