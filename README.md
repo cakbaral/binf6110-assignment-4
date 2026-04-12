@@ -3,6 +3,7 @@
 ## Introduction
 
 ## Methods
+All clusters were then annotated and 
 
 ## Results
 ### Dimensionality Reduction and Initial Clustering of Mouse Cells
@@ -12,15 +13,22 @@ Dimensionality reduction of mouse cell data from the Seurat object was carried o
 
 **Figure 1**: Elbow plot of principle components (PCs) for 156,572 cells collected from normal mice and mice infected with nasal influenza.  A total of 20 PCs were identified after scaling and normalizing of data.  The elbow point appeared to occur at around 15 PCs.
 
-Looking at the initial UMAP for the mouse cells (Figure 2), a total of 37 distinct clusters were identified.  These clusters appeared mostly heterogenous from each other, with certain clusters appearing to form larger groups than others, while still remaining distinct between each other.  Overlap between clusters did appear to be present within the clusters upon closer inspection, but these instances were usually minor and, for the most part, did not have a major impact on heterogeneity.  Cluster sizes were also varied, though certain groups appeared to have similar sizes between each other, only differing by a few tens or hundreds of cells.  Cluster 0, which represented the largest cluster, reported a cluster size of 24,976 cells.  The smallest cluster, which was represented by cluster 36, reported a size of 245 cells. 
+Looking at the initial UMAP for the mouse cells (Figure 2), a total of 37 distinct clusters were identified.  These clusters appeared mostly heterogenous from each other, with certain clusters appearing to form larger groups than others, while still remaining distinct between each other.  Overlap between clusters did appear to be present within the clusters upon closer inspection, but these instances were usually minor and, for the most part, did not have a major impact on heterogeneity.  Cluster sizes were also varied, though certain groups appeared to have similar sizes between each other, only differing by a few tens or hundreds of cells.  Cluster 0, which represented the largest cluster, reported a population of 24,976 cells.  The smallest cluster, which was represented by cluster 36, reported a population of 245 cells. 
 
 <img width="1465" height="962" alt="UMAP_Mouse_Influenza" src="https://github.com/user-attachments/assets/f6466b54-2320-4ca8-a0ce-2970287d5ecb" />
 
 **Figure 2**: UMAP embedding of 156,572 mouse cells across 37 mostly heterogenous clusters.  Cells were included from both normal mice and mice infected with nasal influenza across three different regions of the nasal mucosa, including the respiratory mucosa (RM), olfactory mucosa (OM), and lateral nasal gland (LM).  They were collected across a time span of 2 weeks, collected at five different endpoints (Naive, D02, D05, D08, D14).
 
 ### Annotation of Mouse Cell Clusters
+To identify cell type/identity for each cluster, all cells were annotated using SingleR (v2.8.0).  Looking at the annotated UMAP embedding in Figure 3, a total of 18 different cell types were identified from the entire cell community of 156,572 cells.  However, when , .  These 9 dominant cell types included: B cells, endothelial cells, epithelial cells, fibroblasts, granulocytes, macrophages, monocytes, neurons, and T cells.
 
-<img width="1397" height="782" alt="Mouse_Annotated_UMAP" src="https://github.com/user-attachments/assets/b3b51da6-c72e-4c1a-8063-e6ff22991d69" />
+
+
+**Figure 3**: Annotated UMAP embedding of all 156,572 mouse cells across 37 clusters using the SingleR (v2.8.0) program.  A total of 18 different cell types were identified from the entire cell community.
+
+To check the accuracy of these automatic annotations, cluster 4, which identified its dominant cell type as B cells, was selected for verification using manual annotation with the scientific literature.  The top three significant gene markers identified for this cluster were 
+
+### Genes of Interest
 
 
 ## Discussion
