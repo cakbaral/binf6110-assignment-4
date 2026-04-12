@@ -5,11 +5,14 @@
 ## Methods
 
 ## Results
-### Initial Clustering of Mouse Cells
+### Dimensionality Reduction and Initial Clustering of Mouse Cells
+Dimensionality reduction of mouse cell data from the Seurat object was carried out using PC analysis to identify relevant PCs to retain for clustering by .  UMAP embedding was then used to visualize all of the distinct clusters with the applied PCs .  When looking at the elbow plot in Figure 1, 20 PCs were identified .  However, the variance appeared to decrease at around 15 PCs, as evident by the elbow point levelling off at around PC15.  As such, up to 15 PCs were applied to further downstream analysis for UMAP embedding.
 
 <img width="1482" height="1007" alt="Mouse_Elbow_Plot" src="https://github.com/user-attachments/assets/871c79d6-5f04-4681-ae07-af5578cfbdcb" />
 
-**Figure 1**: Elbow plot of principle components (PCs) for 
+**Figure 1**: Elbow plot of principle components (PCs) for 156,572 cells collected from normal mice and mice infected with nasal influenza.  A total of 20 PCs were identified after scaling and normalizing of data.  The elbow appeared to 
+
+Looking at the initial UMAP for the mouse cells (Figure 2), a total of 37 distinct clusters were identified.  
 
 <img width="1465" height="962" alt="UMAP_Mouse_Influenza" src="https://github.com/user-attachments/assets/f6466b54-2320-4ca8-a0ce-2970287d5ecb" />
 
