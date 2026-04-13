@@ -32,7 +32,7 @@ Then, looking at the annotated UMAP embedding at the cluster level (Figure 4), w
 
 **Figure 4**: Annotated UMAP embedding of all 37 mouse cell clusters using the SingleR (v2.8.0) program at the cluster level.  There were a total of 10 dominant cell types identified, with each category represented by 1-8 clusters.
 
-To check the accuracy of the cluster level automatic annotations, cluster 4, which identified its dominant cell type as B cells, was selected for verification using manual annotation with the scientific literature.  The top three significant gene markers identified for this cluster, based on average log2Fold changes and adjusted p values, were Iglc2 (avg_log2FC = 8.88), Fcer2a (avg_log2FC = 8.60), and Iglc1 (avg_log2FC = 8.56).  The true adjusted p-values for each gene were much smaller and drastically approached 0.
+To check the accuracy of the cluster level automatic annotations, cluster 4, which identified its dominant cell type as B cells, was selected for verification using manual annotation with the scientific literature.  The top three significant gene markers identified for this cluster, based on average log2Fold changes and adjusted p values, were Iglc2 (avg_log2FC = 8.88), Fcer2a (avg_log2FC = 8.60), and Iglc1 (avg_log2FC = 8.56).  The true adjusted p-values for each gene were much smaller and drastically approached 0.  Looking at the feature plots, each gene appeared to show a distinct expression pattern, being highly expressed in individual clusters that differed from each other, without major overlap between the dominant cell types.  This helped to further validate the annotations of cell type identities, with each category being supported by at least one uniquely expressed gene marker.
 
 ### Genes of Interest
 
