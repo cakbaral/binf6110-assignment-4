@@ -80,6 +80,8 @@ Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change
 
 Megdalia, C., Kolpakov, I., Zwygart, A. C. A., Zhu, Y., Constant, S., Huang, S., Cagno, V., Dermitzakis, E. T., Stellaci, F., Xenarios, I., & Tapparel, C. (2022). An anti-influenza combined therapy assessed by single cell RNA-sequencing. *Communications Biology*, *5*, 1075. https://doi.org/10.1038/s42003-022-04013-4
 
+Pollenus, E., Possemiers, H., Knoops, S., Prenen, F., Vandermosten, L., Thienpoint, C., Abdurahiman, S., Demeyer, S., Cools, J., Matteoli, G., Vanoirbeek, J. A. J., Velde, G. V., & Van de Steen, P. E. (2024). Single cell RNA sequencing reveals endothelial cell killing and resolution pathways in experimental malaria-associated acute respiratory distress syndrome. *PLoS Pathogens*, *20*(1), e1011929. https://doi.org/10.1371/journal.ppat.1011929
+
 Satija, R., Farrell, J. A., Gennert, D., Schier, A. F., & Regev, A. (2015). Spatial reconstruction of single-cell gene expression data. *Nature Biotechnology*, *33*, 495-502. https://doi.org/10.1038/nbt.3192
 
 Verma, A. & Engelhardt, B. E. (2020). A robust nonlinear low-dimensional manifold for single cell RNA-seq data. *BMC Bioinformatics*, *21*, 324. https://doi.org/10.1186/s12859-020-03625-z
