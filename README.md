@@ -36,6 +36,9 @@ To check the accuracy of the cluster level automatic annotations, cluster 4, whi
 
 ### Genes of Interest
 
+<img width="1920" height="1112" alt="Feature_Plot_Gene_Immune_Cells" src="https://github.com/user-attachments/assets/b5433449-ce46-49c4-8af3-44fff80b3251" />
+
+<img width="1920" height="1112" alt="Feature_Plot_Gene_Structural_Specialized_Cells" src="https://github.com/user-attachments/assets/c76d5ba8-321e-4152-8e0e-0f2b66332e13" />
 
 ## Discussion
 
