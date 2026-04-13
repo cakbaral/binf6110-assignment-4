@@ -4,7 +4,7 @@
 
 One such study, for example, which was conducted by Kazer et al. in 2024, has even attempted to .
 
-Single cell RNA-sequencing (scRNA-seq) has often been at the heart of understanding many respiratory infections, especially influenza (Medaglia et al., 2022).  One of the most widely used programs that has been used to conduct many different types of scRNA-seq analyses is the *Seurat* package in R (Satija et al., 2015, Hao et al., 2023).  When it comes to the visualization of these clusters in these , the most prominent method that has been is the Uniform Manifold Approximation and Projection (UMAP) ().  UMAP has been most useful in visualizing high-dimensional data for cell clusters in a low-dimensional space .  However, what makes it more
+Single cell RNA-sequencing (scRNA-seq) has often been at the heart of understanding many respiratory infections, especially influenza (Medaglia et al., 2022).  It has often been used to investigate , including innate immunity, and disease progression ().  One of the most widely used programs that has been used to conduct many different types of scRNA-seq analyses is the *Seurat* package in R (Satija et al., 2015).  When it comes to the visualization of these clusters, the most prominent method that has been greatly accepted today is the Uniform Manifold Approximation and Projection (UMAP) (Becht et al., 2018).  UMAP embedding has typically been most useful in illustrating high-dimensional data for cell clusters in a low-dimensional space for many scRNA-seq analyses, being more robust at creating highly reproducible visualizations that take less computing time (Becht et al., 2018, Xiang et al., 2021).  However, the most noteworthy aspect about this method that has made it more valuable than prior visualization methods, most notably, t-distributed stochastic neighbor embedding (t-SNE), is its capability of determining cell clusters that best reflect and maintain the global cell populations from the samples and/or organisms they were obtained from (Becht et al., 2018, Xiang et al., 2021).
 
 The goal of this analysis was to explore the different types of and using single-cell RNA sequencing 
 
@@ -65,6 +65,8 @@ After annotating each cluster with SingleR, the top significant gene marker was 
 Aran, D., Looney, A. P., Liu, L., Wu, E., Fong, V., Hsu, A., Chak, S., Naikawadi, R. P., Wolters, P. J., Abate, A. R., Butte, A. J., & Bhattacharya, M. (2019). Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage. *Nature Immunology*, *20*, 163-172. https://doi.org/10.1038/s41590-018-0276-y
 
 Benayoun, B., Pollina, E. A., Singh, P. P., Mahmoudi, S., Harel, I., Casey, K. M., Dulken, B. W., Kundaje, A., & Brunet, A. (2019). Remodeling of epigenome and transcriptome landscapes with aging in mice reveals widespread induction of inflammatory responses. *Genome Research*, *29*, 697-709. http://genome.cshlp.org/lookup/doi/10.1101/gr.240093.118
+
+Becht, E., McInnes, L., Healy, J., Dutertre, C. A., Kwok, I. W. H., Ng, L. G., Ginhoux, F., & Newell, E. W. (2018). Dimensionality reduction for visualizing single-cell data using UMAP. *Nature Biotechnology*, *37*(1), 38-44. https://doi.org/10.1038/nbt.4314
 
 Hao, Y., Stuart, T., Kowalski, M. H., Choudhary, S., Hoffman, P., Hartman, A., Srivastava, A., Molla, G., Madad, S., Fernandez-Granda, C., & Satija, R. (2023). Dictionary learning for integrative, multimodal and scalable single-cell analysis. *Nature Biotechnology*, *42*, 293-304. https://doi.org/10.1038/s41587-023-01767-y
 
