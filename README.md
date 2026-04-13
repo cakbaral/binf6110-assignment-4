@@ -1,7 +1,12 @@
 # binf6110-assignment-4
 
 ## Introduction
-The goal of this analysis was to explore the different types of and using single-cell RNA sequencing
+
+One such study, for example, which was conducted by Kazer et al. in 2024, has even attempted to .
+
+Single cell RNA-sequencing (scRNA-seq) has often been at the heart of understanding many respiratory infections, especially influenza (Medaglia et al., 2022).  One of the most widely used programs that has been used to conduct many different types of scRNA-seq analyses is the *Seurat* package in R (Satija et al., 2015, Hao et al., 2023).  When it comes to the visualization of these clusters in these , the most prominent method that has been is the Uniform Manifold Approximation and Projection (UMAP) ().  UMAP has been most useful in visualizing high-dimensional data for cell clusters in a low-dimensional space .  However, what makes it more
+
+The goal of this analysis was to explore the different types of and using single-cell RNA sequencing 
 
 
 ## Methods
@@ -66,5 +71,7 @@ Hao, Y., Stuart, T., Kowalski, M. H., Choudhary, S., Hoffman, P., Hartman, A., S
 Kazer, S. W., Match, C. M., Langan, E. M., Messou, M. A., LaSalle, T. J., O'Leary, E., Marbourg, J., Naughton, K., von Andrian, U. H., & Ordovas-Montanes, J. (2024). Primary nasal influenza infection rewires tissue-scale memory response dynamics. *Immunity*, *57*(8), 1955-1974.e8. https://doi.org/10.1016/j.immuni.2024.06.005
 
 Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. *Genome Biology*, *15*(12), 550. https://doi.org/10.1186/s13059-014-0550-8
+
+Megdalia, C., Kolpakov, I., Zwygart, A. C. A., Zhu, Y., Constant, S., Huang, S., Cagno, V., Dermitzakis, E. T., Stellaci, F., Xenarios, I., & Tapparel, C. (2022). An anti-influenza combined therapy assessed by single cell RNA-sequencing. *Communications Biology*, *5*, 1075. https://doi.org/10.1038/s42003-022-04013-4
 
 Satija, R., Farrell, J. A., Gennert, D., Schier, A. F., & Regev, A. (2015). Spatial reconstruction of single-cell gene expression data. *Nature Biotechnology*, *33*, 495-502. https://doi.org/10.1038/nbt.3192
