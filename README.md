@@ -38,11 +38,11 @@ To check the accuracy of the cluster level automatic annotations, cluster 4, whi
 
 <img width="1920" height="1112" alt="Feature_Plot_Gene_Immune_Cells" src="https://github.com/user-attachments/assets/b5433449-ce46-49c4-8af3-44fff80b3251" />
 
-**Figure 5**: UMAP-based feature plots of the top gene markers for cell types belonging to immune cells.  In order, these genes are the top markers for: (a) B cells; (b) Granulocytes; (c) Macrophages; (d) Monocytes; (e) Natural Killer (NK) cells; and (f) T cells.
+**Figure 5**: UMAP-based feature plots of the top gene markers for cell types belonging to immune cells.  In order, these genes are the top markers for: (a) *B cells*; (b) *Granulocytes*; (c) *Macrophages*; (d) *Monocytes*; (e) *Natural Killer (NK) cells*; and (f) *T cells*.
 
 <img width="1920" height="1112" alt="Feature_Plot_Gene_Structural_Specialized_Cells" src="https://github.com/user-attachments/assets/c76d5ba8-321e-4152-8e0e-0f2b66332e13" />
 
-**Figure 6**: UMAP-based feature plots of the top gene markers for cell types belonging to other cells in the immune response, such as more structural and specialized cells.  In order, these genes are the top markers for: (a) Endothelial cells; (b) Epithelial cells; (c) Fibroblasts; and (d) Neurons.
+**Figure 6**: UMAP-based feature plots of the top gene markers for cell types belonging to other cells in the immune response, such as more structural and specialized cells.  In order, these genes are the top markers for: (a) *Endothelial cells*; (b) *Epithelial cells*; (c) *Fibroblasts*; and (d) *Neurons*.
 
 ## Discussion
 
