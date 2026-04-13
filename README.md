@@ -1,6 +1,8 @@
 # binf6110-assignment-4
 
 ## Introduction
+The goal of this analysis was to explore the different types of and using single-cell RNA sequencing
+
 
 ## Methods
 Raw single-cell RNA sequencing data was obtained and adopted from the study conducted by Kazer et al. in 2024 and transformed into a Seurat object, created by Dr. Elias Taylor at University of Guelph, to import into R (v4.4.3) (2026).  In this Seurat object, mice had been infected with the Influenza A virus, and a total of 156,572 cells were collected in the nasal mucosa found in the upper respiratory tract (Kazer et al., 2024).  Over a post-infection period of about 14 days, cells were collected during five specific timepoints, at Day 0 (Naive), Day 2 (D02), Day 5 (D05), Day 8 (D08), and Day 14 (D14) (Kazer et al., 2024).  In addition, during these timepoints, the cells were also collected from across three different types of tissue in the nasal mucosa, which were the respiratory mucosa (RM), olfactory mucosa (OM), and lateral nasal gland (LM) (Kazer et al., 2024).  Once collected, the data was pre-processed using Cell Ranger (v), and a Seurat object was created using the *Seurat* package (v) in R (v.4.4.3) (Satija et al., 2015, Hao et al., 2023, Taylor, 2026).
