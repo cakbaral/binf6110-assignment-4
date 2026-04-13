@@ -3,7 +3,7 @@
 ## Introduction
 
 ## Methods
-All clusters were then annotated and 
+All clusters were then annotated and .  To determine the genes of interest, which were defined as the top significant gene markers for each annotated cell type, the *FindAllMarkers* function was first used on the clustered cells to obtain all gene markers for each cluster as a starting directory.  This data was then filtered to include only gene markers with the following parameters: an average log2Fold change greater than 0.5 (*avg_log2FC* > 0.5), an adjusted p-value less than 0.05 (*p_val_adj* < 0.05), at least 25% coverage of cells in the cluster (pct.1 > 0.25), and no more than 10% coverage of cells in other clusters (pct.2 < 0.10).  These parameters were selected to facilitate more discovery of important and distinct gene markers, while still finding those that were more unique to specific cell types, as multiple stricter parameters, such as pct.1, often limited the number of top genes per cluster or resulted in a cluster not reporting any genes.
 
 ## Results
 ### Dimensionality Reduction and Initial Clustering of Mouse Cells
