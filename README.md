@@ -3,7 +3,7 @@
 ## Introduction
 
 ## Methods
-All clusters were then automatically annotated for their most dominant cell types by using the *SingleR* package (v2.8.0), both at the cell level and the cluster level ().  As a reference dataset, the MouseRNAseqData was downloaded and used from the *celldex* package (v1.16.0) ().  First, to explore all the different cell types across the entire cell community, 
+All clusters were then automatically annotated for their most dominant cell types by using the *SingleR* package (v2.8.0), both at the cell level and the cluster level ().  As a reference dataset, the MouseRNAseqData was downloaded and used from the *celldex* package (v1.16.0), adopted from an epigenomic and transcriptomic study conducted by Benayoun et al. (2019).  First, to explore all the different cell types across the entire cell community, 
 
 To determine the genes of interest, which were defined as the top significant gene markers for each annotated cell type, the *FindAllMarkers* function in the *Seurat* package was first used on the clustered cells to obtain all gene markers for each cluster as a starting directory ().  This data was then filtered to include only the top gene marker per cluster, with the following parameters: an average log2Fold change greater than 0.5 (*avg_log2FC* > 0.5), an adjusted p-value less than 0.05 (*p_val_adj* < 0.05), at least 25% coverage of cells in the cluster (pct.1 > 0.25), and no more than 10% coverage of cells in other clusters (pct.2 < 0.10).  These parameters were selected to facilitate more discovery of important and distinct gene markers, while still finding those that were more unique to specific cell types, as multiple stricter parameters, such as pct.1, often limited the number of top genes per cluster or resulted in a cluster not reporting any genes.  Once these top gene markers were identified per cluster, this list was then further filtered to identify the topmost gene for each cell type, given that each annotation was still represented by multiple clusters and thus multiple top genes, whilst still retaining the same parameters.  The expression patterns of these top genes were then visualized and examined using UMAP embedding as feature plots to justify that these markers were unique to each of their respective cell types.
 
@@ -22,7 +22,7 @@ Looking at the initial UMAP for the mouse cells (Figure 2), a total of 37 distin
 **Figure 2**: UMAP embedding of 156,572 mouse cells across 37 mostly heterogenous clusters.  Cells were included from both normal mice and mice infected with nasal influenza across three different regions of the nasal mucosa, including the respiratory mucosa (RM), olfactory mucosa (OM), and lateral nasal gland (LM).  They were collected across a time span of 2 weeks, collected at five different endpoints (Naive, D02, D05, D08, D14).
 
 ### Annotation of Mouse Cell Clusters
-To identify cell type/identity for each cluster, all cells and clusters were annotated using SingleR (v2.8.0).  Looking at the annotated UMAP embedding at the cell level (Figure 3), a total of 18 different cell types were identified from the entire cell community of 156,572 cells.
+To identify cell type/identity for each cluster, all cells and clusters were annotated using SingleR (v2.8.0).  Looking at the annotated UMAP embedding at the cell level (Figure 3), a total of 18 different cell types were identified from the entire cell community of 156,572 cells.  These cell types matched accordingly with the cell types determined in the reference dataset (Benayoun et al., 2019).
 
 <img width="822" height="491" alt="Mouse_Annotated_UMAP_Cell" src="https://github.com/user-attachments/assets/1ec84166-c8e5-4b87-a59e-87383c30f511" />
 
@@ -51,4 +51,6 @@ After annotating each cluster with SingleR, the top significant gene marker was 
 ## Discussion
 
 ## References
+Benayoun, B., Pollina, E. A., Singh, P. P., Mahmoudi, S., Harel, I., Casey, K. M., Dulken, B. W., Kundaje, A., & Brunet, A. (2019). Remodeling of epigenome and transcriptome landscapes with aging in mice reveals widespread induction of inflammatory responses. *Genome Research*, *29*, 697-709. http://genome.cshlp.org/lookup/doi/10.1101/gr.240093.118
+
 Kazer, S. W., Match, C. M., Langan, E. M., Messou, M. A., LaSalle, T. J., O'Leary, E., Marbourg, J., Naughton, K., von Andrian, U. H., & Ordovas-Montanes, J. (2024). Primary nasal influenza infection rewires tissue-scale memory response dynamics. *Immunity*, *57*(8), 1955-1974.e8. https://doi.org/10.1016/j.immuni.2024.06.005
