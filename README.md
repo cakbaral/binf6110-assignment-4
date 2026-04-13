@@ -77,3 +77,5 @@ Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change
 Megdalia, C., Kolpakov, I., Zwygart, A. C. A., Zhu, Y., Constant, S., Huang, S., Cagno, V., Dermitzakis, E. T., Stellaci, F., Xenarios, I., & Tapparel, C. (2022). An anti-influenza combined therapy assessed by single cell RNA-sequencing. *Communications Biology*, *5*, 1075. https://doi.org/10.1038/s42003-022-04013-4
 
 Satija, R., Farrell, J. A., Gennert, D., Schier, A. F., & Regev, A. (2015). Spatial reconstruction of single-cell gene expression data. *Nature Biotechnology*, *33*, 495-502. https://doi.org/10.1038/nbt.3192
+
+Xiang, R., Wang, W., Yang, L., Wang, S., Xu, C., & Chen, X. (2021). A Comparison for Dimensionality Reduction Methods of Single-Cell RNA-seq Data. *Frontiers in Genetics*, *12*:646936. https://doi.org/10.3389/fgene.2021.646936
