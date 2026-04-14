@@ -63,12 +63,12 @@ After annotating each cluster with SingleR, the top significant gene marker was 
 
 <img width="1920" height="1112" alt="DE_Heatmap_Time" src="https://github.com/user-attachments/assets/251fe6a0-fbe1-47a9-ba86-0ea9e2912ad8" />
 
-**Figure 7**
+**Figure 7**: Heat map of differential expression of log2FoldChange (LFC) in genes from cluster 4 for **time**, between day 14 and day 2 of post-infection, using day 2 as a reference. The tissue type was kept constant to the lateral nasal gland (LNG).  LFC shrinkage was applied to all genes using the *ashr* method and ordered by descending log2FoldChange. Red indicates more upregulated genes relative to the timepoint D02, whereas blue indicates more downregulated genes.
 
 <img width="1920" height="1112" alt="DE_Heatmap_Tissue_1" src="https://github.com/user-attachments/assets/e186736b-8612-457b-997f-65f22eb1eb51" />
 <img width="1920" height="1112" alt="DE_Heatmap_Tissue_2" src="https://github.com/user-attachments/assets/eca02a6e-0c75-4281-a178-89217690c9ad" />
 
-**Figure 8**
+**Figure 8**: Heat maps of differential expression of log2FoldChange (LFC) in genes from cluster 4 for **tissue type**, using the lateral nasal gland (LNG) as a reference. **(A)**: The first heatmap compares gene expression in the oral mucosa (OM) relative to the LNG.  **(B)**: The second heatmap compares gene expression in the respiratory mucosa (RM) relative to the LNG.  The timepoint was kept constant to day 2 (D02) post-infection.  LFC shrinkage was applied to all genes using the *ashr* method and ordered by descending log2FoldChange. Red indicates more upregulated genes relative to the LNG tissue, whereas blue indicates more downregulated genes.
 
 <img width="1920" height="1112" alt="DE_Heatmap_Disease" src="https://github.com/user-attachments/assets/c315294e-a289-4f43-ad4f-f79398f7a612" />
 
