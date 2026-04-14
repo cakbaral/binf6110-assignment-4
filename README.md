@@ -45,7 +45,7 @@ Then, looking at the annotated UMAP embedding at the cluster level (Figure 4), w
 
 **Figure 4**: Annotated UMAP embedding of all 37 mouse cell clusters using the SingleR (v2.8.0) program at the cluster level.  There were a total of 10 dominant cell types identified, with each category represented by 1-8 clusters.
 
-To check the accuracy of the cluster level automatic annotations, cluster 4, which identified its dominant cell type as B cells, was selected for verification using manual annotation with the scientific literature.  The top three significant gene markers identified for this cluster, based on average log2Fold changes and adjusted p values, were Iglc2 (avg_log2FC = 8.88), Fcer2a (avg_log2FC = 8.60), and Iglc1 (avg_log2FC = 8.56).  The true adjusted p-values for each gene were much smaller and drastically approached 0.
+To check the accuracy of the cluster level automatic annotations, cluster 4, which identified its dominant cell type as B cells, was selected for verification using manual annotation with the scientific literature.  The top three significant gene markers identified for this cluster, based on average log2Fold changes and adjusted p values, were *Iglc2* (avg_log2FC = 8.88), *Fcer2a* (avg_log2FC = 8.60), and *Iglc1* (avg_log2FC = 8.56).  The true adjusted p-values for each gene were much smaller and drastically approached 0.  Two research studies, one by , and another by Huang et al. in 2024, which investigated the *Fcer2a* gene more in depth in B cells, were, in turn, able to confirm and justify the identified cell type for this cluster as B cells.
 
 ### Genes of Interest
 
@@ -61,6 +61,8 @@ After annotating each cluster with SingleR, the top significant gene marker was 
 
 ## Discussion
 
+Starting with the results observed from the UMAP clusters, there were initially 37 clusters identified from a total of 156,572 cells.  After annotation, there were 10 dominant cell types that were identified from these clusters over the course of post-infection.  Out of these cell types, neurons had the largest presence across the cell populations in multiple clusters, while T cells had the smallest presence, limited to a single cluster.  When selecting cluster 4, identified as B cells, to annotate manually, to check the performance of SingleR, using *Iglc2*, *Fcer2a*, and *Iglc1*, as the top gene markers according to average log2Fold change, , whereas Huang et al. confirmed the presence and expression of the *Fcer2a* gene (, 2024).  Meanwhile, the *FCER2* gene is known for encoding CD23, a particular receptor expressed on B cells that is responsible for the production of IgE antibodies (Chan et al., 2014).  In turn, IgE has been found to be responsible for increasing responsiveness in the respiratory tract during influenza A, in response to airway resistance, which may have been exacerbated by atopic symptoms or stress caused by the virus (Suzuki et al., 1998). 
+
 ## References
 Aran, D., Looney, A. P., Liu, L., Wu, E., Fong, V., Hsu, A., Chak, S., Naikawadi, R. P., Wolters, P. J., Abate, A. R., Butte, A. J., & Bhattacharya, M. (2019). Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage. *Nature Immunology*, *20*, 163-172. https://doi.org/10.1038/s41590-018-0276-y
 
@@ -72,7 +74,11 @@ Byrd-Leotis, L., Cummings, R. D., & Steinhauer, D. A. (2017). The Interplay betw
 
 Cembellin-Prieto, A., Luo, Z., Kulaga, H., & Baumgarth, N. (2025). B cells modulate lung antiviral inflammatory responses via the neurotransmitter acetylcholine. *Nature Immunology*, *26*, 775-789. https://doi.org/10.1038/s41590-025-02124-8
 
+Chan, M. A., Gigliotti, N. M., Aubin, B. G., & Rosenwasser, L. J. (2014). FCER2 (CD23) Asthma-Related Single Nucleotide Polymorphisms Yields Increased IgE Binding and Egr-1 Expression in Human B Cells. *American Journal of Respiratory Cell and Molecular Biology*, *50*(2), 263-269. https://doi.org/10.1165/rcmb.2013-0112OC
+
 Hao, Y., Stuart, T., Kowalski, M. H., Choudhary, S., Hoffman, P., Hartman, A., Srivastava, A., Molla, G., Madad, S., Fernandez-Granda, C., & Satija, R. (2023). Dictionary learning for integrative, multimodal and scalable single-cell analysis. *Nature Biotechnology*, *42*, 293-304. https://doi.org/10.1038/s41587-023-01767-y
+
+Huang, F., Zhang, J., Zhou, H., Qu, T., Wang, Y., Jiang, K., Liu, Y., Xu, Y., Chen, M., & Chen, L. (2024). B cell subsets contribute to myocardial protection by inducing neutrophil apoptosis after ischemia and reperfusion. *Journal of Clinical Investigation Insight*, *9*(4), e167201. https://doi.org/10.1172/jci.insight.167201
 
 Huang, Q., Liu, Y., Du, Y., & Garmire, L. X. (2020). Evaluation of Cell Type Annotation R Packages on Single-Cell RNA-Seq Data. *Genomics, Proteomics, & Bioinformatics*, *19*(2), 267-281. https://doi.org/10.1016/j.gpb.2020.07.004
 
@@ -93,6 +99,8 @@ Nguyen, T. Q., Rollon, R., & Choi, Y. K. (2021). Animal Models for Influenza Res
 Pollenus, E., Possemiers, H., Knoops, S., Prenen, F., Vandermosten, L., Thienpoint, C., Abdurahiman, S., Demeyer, S., Cools, J., Matteoli, G., Vanoirbeek, J. A. J., Velde, G. V., & Van de Steen, P. E. (2024). Single cell RNA sequencing reveals endothelial cell killing and resolution pathways in experimental malaria-associated acute respiratory distress syndrome. *PLoS Pathogens*, *20*(1), e1011929. https://doi.org/10.1371/journal.ppat.1011929
 
 Satija, R., Farrell, J. A., Gennert, D., Schier, A. F., & Regev, A. (2015). Spatial reconstruction of single-cell gene expression data. *Nature Biotechnology*, *33*, 495-502. https://doi.org/10.1038/nbt.3192
+
+Suzuki, S., Suzuki, Y., Yamamoto, N., Matsumoto, Y., Shirai, A., & Okubo, T. (1998). *Journal of Allergy and Clinical Immunology*, *102*(5), 732-740. https://doi.org/10.1016/S0091-6749(98)70012-0
 
 Verma, A. & Engelhardt, B. E. (2020). A robust nonlinear low-dimensional manifold for single cell RNA-seq data. *BMC Bioinformatics*, *21*, 324. https://doi.org/10.1186/s12859-020-03625-z
 
