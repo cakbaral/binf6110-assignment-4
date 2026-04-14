@@ -51,6 +51,8 @@ To check the accuracy of the cluster level automatic annotations, cluster 4, whi
 
 After annotating each cluster with SingleR, the top significant gene marker was determined for each of the dominant cell types based on the average log2Fold change and adjusted p-values.  Using UMAP embedding, these genes of interest were then visualized using feature plots, separating them into two groups based on genes belonging to immune cell types (Figure 4) and other cell types belonging to more structural/specialized functions (Figure 5).  The average log2Fold changes ranged from about 4.65, which was exhibited by the *Nqo1* gene in neurons, to 11.54, which was exhibited by the *Gpihbp1* gene in endothelial cells.  Meanwhile, the adjusted p-values for all top gene markers were much smaller that they all greatly approached 0.  Looking at the feature plots, each gene appeared to show a distinct expression pattern, being highly expressed in individual clusters that differed from each other, without major overlap between the dominant cell types.  This helped to further validate the annotations of cell type identities, with each category being supported by at least one uniquely expressed gene marker.
 
+### Differential Expression of a Cell Cluster
+
 <img width="1920" height="1112" alt="Feature_Plot_Gene_Immune_Cells" src="https://github.com/user-attachments/assets/b5433449-ce46-49c4-8af3-44fff80b3251" />
 
 **Figure 5**: UMAP-based feature plots of the top gene markers for cell types belonging to immune cells (*avg_log2FC* > 0.5, *p_val_adj* < 0.05).  In order, these genes are the top markers for: (a) *B cells*; (b) *Granulocytes*; (c) *Macrophages*; (d) *Monocytes*; (e) *Natural Killer (NK) cells*; and (f) *T cells*.
@@ -58,6 +60,47 @@ After annotating each cluster with SingleR, the top significant gene marker was 
 <img width="1920" height="1112" alt="Feature_Plot_Gene_Structural_Specialized_Cells" src="https://github.com/user-attachments/assets/c76d5ba8-321e-4152-8e0e-0f2b66332e13" />
 
 **Figure 6**: UMAP-based feature plots of the top gene markers for cell types belonging to other cells in the immune response, such as more structural and specialized cells (*avg_log2FC* > 0.5, *p_val_adj* < 0.05).  In order, these genes are the top markers for: (a) *Endothelial cells*; (b) *Epithelial cells*; (c) *Fibroblasts*; and (d) *Neurons*.
+
+<img width="1920" height="1112" alt="DE_Heatmap_Time" src="https://github.com/user-attachments/assets/251fe6a0-fbe1-47a9-ba86-0ea9e2912ad8" />
+
+**Figure 7**
+
+<img width="1920" height="1112" alt="DE_Heatmap_Tissue_1" src="https://github.com/user-attachments/assets/e186736b-8612-457b-997f-65f22eb1eb51" />
+<img width="1920" height="1112" alt="DE_Heatmap_Tissue_2" src="https://github.com/user-attachments/assets/eca02a6e-0c75-4281-a178-89217690c9ad" />
+
+**Figure 8**
+
+<img width="1920" height="1112" alt="DE_Heatmap_Disease" src="https://github.com/user-attachments/assets/c315294e-a289-4f43-ad4f-f79398f7a612" />
+
+**Figure 9**
+
+### GO-GSEA Functional Annotation of a Cell Cluster
+
+<img width="1920" height="1112" alt="GSEA_Dotplot_Time" src="https://github.com/user-attachments/assets/68b84a34-e53c-4a92-bc80-2cfddebfb67c" />
+
+**Figure 10**
+
+<img width="1920" height="1112" alt="GSEA_Dotplot_Tissue_1" src="https://github.com/user-attachments/assets/75dacd21-e6f1-4c67-815e-e62a474ac09b" />
+<img width="1920" height="1112" alt="GSEA_Dotplot_Tissue_2" src="https://github.com/user-attachments/assets/75cc5960-7383-4790-b1f0-894a2ffe2df7" />
+
+**Figure 11**
+
+<img width="1920" height="1112" alt="GSEA_Dotplot_Disease" src="https://github.com/user-attachments/assets/fbe651f4-79b0-4a32-9259-4370ee15f759" />
+
+**Figure 12**
+
+<img width="1920" height="1112" alt="GSEA_Ridgeplot_Time" src="https://github.com/user-attachments/assets/16f0af64-9615-42fc-b738-afde183f0ecf" />
+
+**Figure 13**
+
+<img width="1920" height="1112" alt="GSEA_Ridgeplot_Tissue_1" src="https://github.com/user-attachments/assets/74cd3448-82f5-4df5-9b4e-b4b6a7989bfe" />
+<img width="1920" height="1112" alt="GSEA_Ridgeplot_Tissue_2" src="https://github.com/user-attachments/assets/3f8d2415-0022-43f2-9841-2f4c62670b05" />
+
+**Figure 14**
+
+<img width="1920" height="1112" alt="GSEA_Ridgeplot_Disease" src="https://github.com/user-attachments/assets/e781cf00-9933-473f-b88e-516d5bfd2b4b" />
+
+**Figure 15**
 
 ## Discussion
 This single cell RNA sequencing (scRNA-seq) analysis aimed to dive deeper into our understanding of how respiratory disease, namely from influenza A viruses, affected the different cell cluster types and expression patterns of important genes in the nasal mucosa, as obtained from the dataset of mouse models. It was able to investigate a variety of different aspects to describe the identities of cell populations and their uniquely expressed gene markers, though the degree of interpretation for each aspect varies.
