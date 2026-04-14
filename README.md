@@ -60,6 +60,7 @@ After annotating each cluster with SingleR, the top significant gene marker was 
 **Figure 6**: UMAP-based feature plots of the top gene markers for cell types belonging to other cells in the immune response, such as more structural and specialized cells (*avg_log2FC* > 0.5, *p_val_adj* < 0.05).  In order, these genes are the top markers for: (a) *Endothelial cells*; (b) *Epithelial cells*; (c) *Fibroblasts*; and (d) *Neurons*.
 
 ### Differential Expression of a Cell Cluster
+Differential expression of cluster 4, identified as B cells, was conducted using DESeq2, in order to investigate and analyze further differences in gene expression based on timepoints of infection, tissue sample, and disease ontology.  This was done by sampling pairwise comparisons of different groups while affecting only a single factor each time, while the rest were kept constant.  However, it was worth noting that the adjusted p-values for these genes were not greater than the cutoff value of 0.05, and thus, it was not possible to evaluate true statistical significance with certainty.  The time variable looked at changes in gene expression between the two furthest timepoints of post-infection (D02 and D14); tissue samples compared differences in each of the oral and respiratory mucosa in relation to the lateral nasal gland, and disease ontology focused on a comparison in gene expression between normal and immediate post-infection conditions.  Starting with the time variable (Figure 7), *Clstn1* was reported to have the greatest log2FoldChange between groups during the post-infection period.  Next, when looking at the comparisons between tissue types, for the olfactory mucosa (OM) in Figure 7, the *Elavl3* gene reportedly had the greatest log2FoldChange and supposed upregulation.  For the respiratory mucosa (RM) in Figure 8, interestingly, the *Gm6619* gene exhibited a high log2FoldChange in the LNG, potentially suggesting its strong upregulation, but again, not with absolute certainty or significance.  Finally, when looking at disease ontology (Figure 9), the period leading up to initial infection, the *Scn9a* gene was identified as having the greatest log2FoldChange before influenza, though its upregulation seemed less apparent as opposed to the other genes shown.
 
 <img width="1920" height="1112" alt="DE_Heatmap_Time" src="https://github.com/user-attachments/assets/251fe6a0-fbe1-47a9-ba86-0ea9e2912ad8" />
 
@@ -68,7 +69,7 @@ After annotating each cluster with SingleR, the top significant gene marker was 
 <img width="1920" height="1112" alt="DE_Heatmap_Tissue_1" src="https://github.com/user-attachments/assets/e186736b-8612-457b-997f-65f22eb1eb51" />
 <img width="1920" height="1112" alt="DE_Heatmap_Tissue_2" src="https://github.com/user-attachments/assets/eca02a6e-0c75-4281-a178-89217690c9ad" />
 
-**Figure 8**: Heat maps of differential expression of log2FoldChange (LFC) in genes from cluster 4 for **tissue type**, using the lateral nasal gland (LNG) as a reference. **(A)**: The first heatmap compares gene expression in the oral mucosa (OM) relative to the LNG.  **(B)**: The second heatmap compares gene expression in the respiratory mucosa (RM) relative to the LNG.  The timepoint was kept constant to day 2 (D02) post-infection.  LFC shrinkage was applied to all genes using the *ashr* method and ordered by descending log2FoldChange. Red indicates more upregulated genes relative to the LNG tissue, whereas blue indicates more downregulated genes.
+**Figure 8**: Heat maps of differential expression of log2FoldChange (LFC) in genes from cluster 4 for **tissue type**, using the lateral nasal gland (LNG) as a reference. **(A)**: The first heatmap compares gene expression in the olfactory mucosa (OM) relative to the LNG.  **(B)**: The second heatmap compares gene expression in the respiratory mucosa (RM) relative to the LNG.  The timepoint was kept constant to day 2 (D02) post-infection.  LFC shrinkage was applied to all genes using the *ashr* method and ordered by descending log2FoldChange. Red indicates more upregulated genes relative to the LNG tissue, whereas blue indicates more downregulated genes.
 
 <img width="1920" height="1112" alt="DE_Heatmap_Disease" src="https://github.com/user-attachments/assets/c315294e-a289-4f43-ad4f-f79398f7a612" />
 
@@ -78,7 +79,7 @@ After annotating each cluster with SingleR, the top significant gene marker was 
 
 <img width="1920" height="1112" alt="GSEA_Dotplot_Time" src="https://github.com/user-attachments/assets/68b84a34-e53c-4a92-bc80-2cfddebfb67c" />
 
-**Figure 10**
+**Figure 10**: Dot plot of Gene Ontology (GO) enrichment terms for 
 
 <img width="1920" height="1112" alt="GSEA_Dotplot_Tissue_1" src="https://github.com/user-attachments/assets/75dacd21-e6f1-4c67-815e-e62a474ac09b" />
 <img width="1920" height="1112" alt="GSEA_Dotplot_Tissue_2" src="https://github.com/user-attachments/assets/75cc5960-7383-4790-b1f0-894a2ffe2df7" />
