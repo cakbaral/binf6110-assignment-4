@@ -79,7 +79,7 @@ Differential expression of cluster 4, identified as B cells, was conducted using
 
 <img width="1920" height="1112" alt="GSEA_Dotplot_Time" src="https://github.com/user-attachments/assets/68b84a34-e53c-4a92-bc80-2cfddebfb67c" />
 
-**Figure 10**: Dot plot of Gene Ontology (GO) enrichment terms for 
+**Figure 10**: Dot plot of Gene Ontology (GO) enrichment terms for Fast Gene Set Enrichment Analysis (FGSEA) when analyzing pairwise comparison of timepoints of infection in the lateral nasal gland (LNG).  Genes were ranked and categorized by the Wald statistic and Biological Process (BP) ontology respectively.  GO terms classified in the activated plot represent upregulated functions as influenza progressed, while those in the suppressed plot were downregulated.  Dot size reflected the number of genes per term, while dot colour represented statistical significance according to adjusted p-values (*padj* < 0.05).
 
 <img width="1920" height="1112" alt="GSEA_Dotplot_Tissue_1" src="https://github.com/user-attachments/assets/75dacd21-e6f1-4c67-815e-e62a474ac09b" />
 <img width="1920" height="1112" alt="GSEA_Dotplot_Tissue_2" src="https://github.com/user-attachments/assets/75cc5960-7383-4790-b1f0-894a2ffe2df7" />
@@ -88,11 +88,11 @@ Differential expression of cluster 4, identified as B cells, was conducted using
 
 <img width="1920" height="1112" alt="GSEA_Dotplot_Disease" src="https://github.com/user-attachments/assets/fbe651f4-79b0-4a32-9259-4370ee15f759" />
 
-**Figure 12**
+**Figure 12** Dot plot of Gene Ontology (GO) enrichment terms for Fast Gene Set Enrichment Analysis (FGSEA) when analyzing the disease ontology (pre-infection period) in the lateral nasal gland (LNG).  Genes were ranked and categorized by the Wald statistic and Biological Process (BP) ontology respectively.  GO terms classified in the activated plot represent upregulated functions as influenza progressed, while those in the suppressed plot were downregulated.  Dot size reflected the number of genes per term, while dot colour represented statistical significance according to adjusted p-values (*padj* < 0.05).
 
 <img width="1920" height="1112" alt="GSEA_Ridgeplot_Time" src="https://github.com/user-attachments/assets/16f0af64-9615-42fc-b738-afde183f0ecf" />
 
-**Figure 13**
+**Figure 13**: Ridge plot of GO-GSEA results for 
 
 <img width="1920" height="1112" alt="GSEA_Ridgeplot_Tissue_1" src="https://github.com/user-attachments/assets/74cd3448-82f5-4df5-9b4e-b4b6a7989bfe" />
 <img width="1920" height="1112" alt="GSEA_Ridgeplot_Tissue_2" src="https://github.com/user-attachments/assets/3f8d2415-0022-43f2-9841-2f4c62670b05" />
