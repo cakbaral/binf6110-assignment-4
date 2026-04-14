@@ -98,7 +98,7 @@ For the final part of this scRNA-seq analysis, the genes of cluster 4 were then 
 
 <img width="1920" height="1112" alt="GSEA_Dotplot_Disease" src="https://github.com/user-attachments/assets/fbe651f4-79b0-4a32-9259-4370ee15f759" />
 
-**Figure 14** Dot plot of Gene Ontology (GO) enrichment terms for Fast Gene Set Enrichment Analysis (FGSEA) when analyzing the disease ontology (pre-infection period) in the lateral nasal gland (LNG).  Genes were ranked and categorized by the Wald statistic and Biological Process (BP) ontology respectively.  GO terms classified in the activated plot represent upregulated functions as influenza progressed, while those in the suppressed plot were downregulated (or upregulated upon infection in contrast).  Dot size reflected the number of genes per term, while dot colour represented statistical significance according to adjusted p-values (*padj* < 0.05).
+**Figure 14**: Dot plot of Gene Ontology (GO) enrichment terms for Fast Gene Set Enrichment Analysis (FGSEA) when analyzing the disease ontology (pre-infection period) in the lateral nasal gland (LNG).  Genes were ranked and categorized by the Wald statistic and Biological Process (BP) ontology respectively.  GO terms classified in the activated plot represent upregulated functions as influenza progressed, while those in the suppressed plot were downregulated (or upregulated upon infection in contrast).  Dot size reflected the number of genes per term, while dot colour represented statistical significance according to adjusted p-values (*padj* < 0.05).
 
 <img width="1920" height="1112" alt="GSEA_Ridgeplot_Disease" src="https://github.com/user-attachments/assets/e781cf00-9933-473f-b88e-516d5bfd2b4b" />
 
