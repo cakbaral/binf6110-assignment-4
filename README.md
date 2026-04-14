@@ -92,16 +92,16 @@ Differential expression of cluster 4, identified as B cells, was conducted using
 
 <img width="1920" height="1112" alt="GSEA_Ridgeplot_Time" src="https://github.com/user-attachments/assets/16f0af64-9615-42fc-b738-afde183f0ecf" />
 
-**Figure 13**: Ridge plot of GO-GSEA results for 
+**Figure 13**: Ridge plot of GO-GSEA results for time analysis in the lateral nasal gland (LNG).  Ridge size represents the number of expressed genes per term, while ridge colour indicates its statistical significance by adjusted p-values (*padj*), with a cutoff of < 0.05. Ridges positioned above 0 indicate upregulated terms relative to the earliest timepoint of infection (D02), whereas ridges positioned below 0 indicate more downregulated terms.
 
 <img width="1920" height="1112" alt="GSEA_Ridgeplot_Tissue_1" src="https://github.com/user-attachments/assets/74cd3448-82f5-4df5-9b4e-b4b6a7989bfe" />
 <img width="1920" height="1112" alt="GSEA_Ridgeplot_Tissue_2" src="https://github.com/user-attachments/assets/3f8d2415-0022-43f2-9841-2f4c62670b05" />
 
-**Figure 14**
+**Figure 14**: Ridge plots of GO-GSEA results for tissue type analysis for **(a)** oral mucosa (OM) and **(b)** respiratory mucosa (RM), compared to the lateral nasal gland (LNG).  Ridge size represents the number of expressed genes per term, while ridge colour indicates its statistical significance by adjusted p-values (*padj*), with a cutoff of < 0.05. Ridges positioned above 0 indicate upregulated terms in other tissue types than the lateral nasal gland, whereas ridges positioned below 0 indicate more downregulated terms.
 
 <img width="1920" height="1112" alt="GSEA_Ridgeplot_Disease" src="https://github.com/user-attachments/assets/e781cf00-9933-473f-b88e-516d5bfd2b4b" />
 
-**Figure 15**
+**Figure 15**: Ridge plot of GO-GSEA results for disease ontology analysis in the lateral nasal gland (LNG).  Ridge size represents the number of expressed genes per term, while ridge colour indicates its statistical significance by adjusted p-values (*padj*), with a cutoff of < 0.05. Ridges positioned above 0 indicate upregulated terms relative to the start of infection (D02), whereas ridges positioned below 0 indicate more downregulated terms.
 
 ## Discussion
 This single cell RNA sequencing (scRNA-seq) analysis aimed to dive deeper into our understanding of how respiratory disease, namely from influenza A viruses, affected the different cell cluster types and expression patterns of important genes in the nasal mucosa, as obtained from the dataset of mouse models. It was able to investigate a variety of different aspects to describe the identities of cell populations and their uniquely expressed gene markers, though the degree of interpretation for each aspect varies.
