@@ -72,7 +72,7 @@ After annotating each cluster with SingleR, the top significant gene marker was 
 
 <img width="1920" height="1112" alt="DE_Heatmap_Disease" src="https://github.com/user-attachments/assets/c315294e-a289-4f43-ad4f-f79398f7a612" />
 
-**Figure 9**
+**Figure 9**: Heat map of differential expression of log2FoldChange (LFC) in genes from cluster 4 for **disease ontology**, comparing normal (Naive) and post-infection periods, using post-infection as a reference. The tissue type was kept constant to the lateral nasal gland (LNG).  LFC shrinkage was applied to all genes using the *ashr* method and ordered by descending log2FoldChange. Red indicates more upregulated genes relative to the post-infection period, whereas blue indicates more downregulated genes.
 
 ### GO-GSEA Functional Annotation of a Cell Cluster
 
