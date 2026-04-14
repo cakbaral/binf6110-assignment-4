@@ -113,6 +113,8 @@ Taking a closer look back at the feature plots for the genes of interest, the re
 
 Then, with differential gene expression, looking closer at a cluster of B cells, the analysis revealed how different genes and biological functions were either upregulated or downregulated across different tissue regions in the upper respiratory tract, as well as during different stages of influenza pathogenesis, both before and during infection.  Taking a look back at the DE analysis, three different upregulated genes were revealed, though, again, it was not possible to clearly determine their true statistical significance.  *Clstn1* appeared to experience changes in expression over the course of infection; *Elavl3* and *Gm6619* seemed to be mostly influenced by tissue region; and *Scn9a* appeared to experience more expression during pre-infection.
 
+Finally, when applying functional annotation to the pairwise comparisons using GO-GSEA, there were some noteworthy biological processes that were essential to immune function, including MHC class II protein complex assembly during late post-infection in the LNG and lymphocyte differentiation in the OM.  Most interestingly, though, the ubiquitin-dependent protein catabolic process experienced downregulation in the LNG in comparison to both pre-infection and late post-infection periods, establishing its key role in the earliest stages of infection.  The ubiquitin system is often highly essential in host-pathogen interactions, especially when discussing the innate immunity response, which aligns with early stages of infection (Li et al., 2016).  In fact, because of the process of ubiquination as a key defense against infection, studies have revealed how immediate pathogenic invasion has even evolved to interfere with these signalling pathways, making them more potent, a key area of research often under continuous investigation ().
+
 In conclusion, this single cell RNA-sequencing analysis was able to offer a wide variety of information on the different aspects of respiratory infection and the immune response at the cellular level, including cell types, gene markers of interest, and expression patterns across different cell populations.  While the scope of this understanding may not be perfectly translatable to the human immune system from mouse models, it nonetheless proves most valuable in determining the most important areas of key research that can be explored, to further our knowledge of cell function, interaction, and response in health and disease application for humans.
 
 ## References
@@ -152,6 +154,8 @@ Kosmider, B., Messier, E. M., Janssen, W. J., Nahreini, P., Wang, J., Hartshorn,
 
 Lacher, S. E., Lee, J. S., Wang, X., Campbell, M. R., Bell, D. A., & Slattery, M. (2015). Beyond antioxidant genes in the ancient Nrf2 regulatory network. *Free Radical Biology and Medicine*, *88*, 452-465. https://doi.org/10.1016/j.freeradbiomed.2015.06.044
 
+Li, J. Chai, Q. Y., & Liu, C. H. (2016). The ubiquitin system: a critical regulator of innate immunity and pathogen–host interactions. *Cellular and Molecular Immunology*, *13*, 570-576. https://doi.org/10.1038/cmi.2016.40
+
 Li, X., Chen, Z., Yao, Y., Chen, M., & Hu, Y. (2025). Single-Cell Multi-Omics Deciphers Core Gene Networks and Immune Interaction Collapse in Sepsis-Associated T Cell Dysfunction. *Infection and Drug Resistance*, *18*, 4863-4885. https://doi.org/10.2147/IDR.S538883
 
 Linster, M., Schrauwen, E. J. A., van der Vliet, S., Burke, D. F., Lexmond, P., Bestebroer, T. M., Smith, D. J., Herst, S., Koel, B. F., & Fouchier, R. A. M. (2019). The Molecular Basis for Antigenic Drift of Human A/H2N2 Influenza Viruses. *Journal of Virology*, *93*(8), 11. https://doi.org/10.1128/jvi.01907-18 
@@ -159,6 +163,8 @@ Linster, M., Schrauwen, E. J. A., van der Vliet, S., Burke, D. F., Lexmond, P., 
 Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. *Genome Biology*, *15*(12), 550. https://doi.org/10.1186/s13059-014-0550-8
 
 Megdalia, C., Kolpakov, I., Zwygart, A. C. A., Zhu, Y., Constant, S., Huang, S., Cagno, V., Dermitzakis, E. T., Stellaci, F., Xenarios, I., & Tapparel, C. (2022). An anti-influenza combined therapy assessed by single cell RNA-sequencing. *Communications Biology*, *5*, 1075. https://doi.org/10.1038/s42003-022-04013-4
+
+Mukherjee, R. & Dikic, I. (2022). Regulation of Host-Pathogen Interactions via the Ubiquitin System. *Annual Review of Microbiology*, *76*, 211-233. https://doi.org/10.1146/annurev-micro-041020-025803
 
 Nguyen, T. Q., Rollon, R., & Choi, Y. K. (2021). Animal Models for Influenza Research: Strengths and Weaknesses. *Viruses*, *13*(6), 1011. https://doi.org/10.3390/v13061011
 
